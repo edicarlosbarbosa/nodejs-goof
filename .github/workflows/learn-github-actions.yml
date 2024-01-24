@@ -5,6 +5,7 @@ jobs:
   info:
     runs-on: ubuntu-latest
     steps:
+      - uses: snyk/actions@0.4.0
       - run: uname -a
       - run: id
       - run: env
